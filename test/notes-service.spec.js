@@ -6,7 +6,7 @@ const {makeFoldersArray}= require('./folders.fixtures')
 const NoteService = require('../src/notes/NoteService')
 //const FolderService = require('../src/folders/FolderService')
 
-describe.only(`Notes Endpoints`,()=>{
+describe(`Notes Endpoints`,()=>{
   let db
   before('make knex instance',()=>{
     db=knex({
